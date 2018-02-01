@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="mvcdemo.owner.mvcdemo.main.mainmodule.mainpages.MainActivity">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="@dimen/img_w"
+        android:layout_height="@dimen/img_h"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="doAction"
+        android:text="@string/sign_in" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doAction"
+        android:text="@string/sign_up" />
+
+</LinearLayout>
